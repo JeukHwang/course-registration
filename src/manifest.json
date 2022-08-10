@@ -9,14 +9,6 @@
         "128": "assets/icon128.png"
     },
     "background": {},
-    "host_permissions": [
-        "https://*.kaist.ac.kr/*"
-    ],
-    "permissions": [
-        "storage",
-        "activeTab",
-        "scripting"
-    ],
     "web_accessible_resources": [
         {
             "resources": [
