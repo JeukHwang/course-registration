@@ -1,0 +1,4 @@
+#courseRegistrationList > div:nth-child(9)
+{
+    height : fit-content !important;
+}

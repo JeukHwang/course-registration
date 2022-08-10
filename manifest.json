@@ -1,0 +1,40 @@
+{
+    "name": "Course Registration Helper",
+    "version": "0.1",
+    "manifest_version": 3,
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+    "background": {},
+    "host_permissions": [
+        "https://*.kaist.ac.kr/*"
+    ],
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "courseRegistration.css"
+            ],
+            "matches": [
+                "https://cais.kaist.ac.kr/*"
+            ]
+        }
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://cais.kaist.ac.kr/courseRegistration"
+            ],
+            "js": [
+                "courseRegistration.js"
+            ]
+        }
+    ],
+    "action": {}
+}
