@@ -1,12 +1,13 @@
 {
     "name": "Course Registration Helper",
+    "description": "Chrome extension for course registration",
     "version": "0.1",
     "manifest_version": 3,
     "icons": {
-        "16": "icon.png",
-        "48": "icon.png",
-        "128": "icon.png"
-      },
+        "16": "assets/icon16.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+    },
     "background": {},
     "host_permissions": [
         "https://*.kaist.ac.kr/*"
