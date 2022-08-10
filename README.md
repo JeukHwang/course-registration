@@ -1,6 +1,6 @@
 # Course registration
 Chrome extension for course registration
-Not doing illegal things; just change CSS
+Just enable accessibility
 
 ## Reference
 - How to use custom extension
